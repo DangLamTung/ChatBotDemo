@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "chào",
+         "patterns": ["Chào", "How are you", "Có ai không?", "Chào bạn"],
+         "responses": ["Chào cậu, cảm ơn vì đã tới", "Rất vui được gặp lại cậu", "Chào cậu, tôi có thể giúp gì?"],
+         "context_set": ""
+        },
+        {"tag": "giờ",
+         "patterns": ["Mấy giờ mở cửa?","Mấy giờ rồi?","Đặt lúc mấy giờ"],
+         "responses": ["Mở từ 9 giờ sáng đến 9 giờ tối"]
+        },
+        {"tag": "thực đơn",
+         "patterns": ["tôi muốn gọi món", "Ở đây có món gì?", "Ở đây có đồ gì ngon?" ],
+         "responses": ["Bạn muốn món gì?", "Bạn muốn ăn gì? Đây là thực đơn."]
+        },
+        {"tag": "Tạm biệt",
+         "patterns": ["Bye", "Hẹn gặp lại", "Tớ té đây"],
+         "responses": ["Gặp cậu sau", "Vui zẻ", "Pai Pai, hẹn gặp lại."]
+        },
+        {"tag": "Cảm ơn",
+         "patterns": ["Thật thú vị", "Cảm ơn", "Thật hữu ích"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "mua nhà",
+         "patterns": ["Tôi muốn mua nhà ở quận 10?", "Tôi muốn mua bđs?"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "luật",
+         "patterns": ["Luật xuất khẩu như thế nào?", "Tuổi kết hôn là bao nhiêu?"],
+         "responses": ["Luật cho biết là"]
+        },
+        {"tag": "buồn",
+         "patterns": ["Tớ buồn?", "Tớ rớt vlbd rồi?", "Tớ nhớ bạn X?" ],
+         "responses": ["Tại sao cậu buồn", "NÓi với tớ đi"]
+        },
+        {"tag": "love",
+         "patterns": ["Tớ thích cậu", "Anh yêu em?", "Anh nhớ em" ],
+         "responses": ["Tớ cũng thích cậu, như một người bạn", "Vận tốc của cánh hoa anh đào là 5cm/s, và nếu khoảng cách trái tim ta là 5cm, tớ sẽ tới và ôm cậu :3"]
+        },
+        {"tag": "đú",
+         "patterns": ["Liệu tôi có gặp lại cậu được không", "giá như tôi đã chọn lại", "nếu như một ngày cậu không thể nhớ được nữa, cậu sẽ muốn nhớ gì nhất"],
+         "responses": ["Xàm lz quá bạn"]
+        },
+        {"tag": "xàm xàm",
+         "patterns": ["Các bạn lên kstn rồi"],
+         "responses": ["Tại cậu ngu"]
+        }
+   ]
+}
